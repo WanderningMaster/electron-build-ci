@@ -20,12 +20,18 @@ function createWindow () {
 		height: 600,
 		webPreferences: {
 			devTools: true, 
-			preload: path.join(__dirname, 'preload.js')
+			preload: path.join(__dirname, 'preload.js'),
+			nodeIntegration: true,
 		}
 	})
 
 	mainWindow.loadFile('index.html')
-	mainWindow.webContents.openDevTools()
+
+	mainWindow.on("ready-to-show", () => {
+		mainWindow.webContents.openDevTools({
+			mode: 'detach',
+		})
+	})
 }
 
 app.whenReady().then(() => {
