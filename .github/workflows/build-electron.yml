@@ -6,7 +6,7 @@ on:
 
 jobs:
   build_on_win:
-    runs-on: windows-latest
+    runs-on: windows-16
     steps:
     - uses: actions/checkout@master
       with:
