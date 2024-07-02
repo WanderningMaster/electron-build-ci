@@ -94,6 +94,15 @@
     fs-extra "^10.0.0"
     which "^2.0.2"
 
+"@electron-forge/maker-base@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-7.4.0.tgz#28e0ef3a06241a313e1f74e193c8073d7344a4eb"
+  integrity sha512-LwWS4VPdwjISl1KpLhmM1Qr1M3sRTTQ/RsX+GlFd7cQ1W/FsgxMjaTG4Od1d+a5CGVTh3s6X2g99TSUfxjOveg==
+  dependencies:
+    "@electron-forge/shared-types" "7.4.0"
+    fs-extra "^10.0.0"
+    which "^2.0.2"
+
 "@electron-forge/maker-deb@6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.1.1.tgz#6482e239b09438f57cbdfd60b9f6474fbf09c334"
@@ -114,16 +123,16 @@
   optionalDependencies:
     electron-installer-redhat "^3.2.0"
 
-"@electron-forge/maker-squirrel@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-squirrel/-/maker-squirrel-6.1.1.tgz#34bcaf25f3872d8394826ab9237ad2716111eb06"
-  integrity sha512-YA7EY7He5FGGiwNlcOLSHwtrDFmq1XZ+0sKHy/xLu0Q8JZzo15WQ0vwJJEIAxL8KAtjwfhyV5VAWI6w0elr/jg==
+"@electron-forge/maker-squirrel@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-squirrel/-/maker-squirrel-7.4.0.tgz#982f3a7ad9d45258de8f78133eefdd79c90f870e"
+  integrity sha512-mCQyufnSNfjffiKho59ZqVg4W601zGOl6h01OyfDwjOU/G4iQtpnnDEOXGe26q7OVT5ORb1WDnfyGgBeJ6Ge7g==
   dependencies:
-    "@electron-forge/maker-base" "6.1.1"
-    "@electron-forge/shared-types" "6.1.1"
+    "@electron-forge/maker-base" "7.4.0"
+    "@electron-forge/shared-types" "7.4.0"
     fs-extra "^10.0.0"
   optionalDependencies:
-    electron-winstaller "^5.0.0"
+    electron-winstaller "^5.3.0"
 
 "@electron-forge/maker-zip@6.1.1":
   version "6.1.1"
@@ -1322,7 +1331,7 @@ electron-squirrel-startup@^1.0.1:
   dependencies:
     debug "^2.2.0"
 
-electron-winstaller@^5.0.0:
+electron-winstaller@^5.3.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/electron-winstaller/-/electron-winstaller-5.3.1.tgz#1326ba94ad57742905c9af090dc95988de34d252"
   integrity sha512-oM8BW3a8NEqG0XW+Vx3xywhk0DyDV4T0jT0zZfWt0IczNT3jHAAvQWBorF8osQDplSsCyXXyxrsrQ8cY0Slb/A==
