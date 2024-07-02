@@ -32,7 +32,7 @@
     "@electron-forge/plugin-fuses": "^7.4.0",
     "@electron/fuses": "^1.8.0",
     "cargo-cp-artifact": "^0.1.8",
-    "electron": "25.1.0",
+    "electron": "31.1.0",
     "electron-forge-maker-appimage": "^25.0.0-alpha.10"
   },
   "dependencies": {
