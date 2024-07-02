@@ -6,7 +6,7 @@ on:
 
 jobs:
   build_on_win:
-    runs-on: windows-16
+    runs-on: windows-19
     steps:
     - uses: actions/checkout@master
       with:
