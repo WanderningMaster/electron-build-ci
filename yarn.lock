@@ -94,6 +94,15 @@
     fs-extra "^10.0.0"
     which "^2.0.2"
 
+"@electron-forge/maker-base@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-7.4.0.tgz#28e0ef3a06241a313e1f74e193c8073d7344a4eb"
+  integrity sha512-LwWS4VPdwjISl1KpLhmM1Qr1M3sRTTQ/RsX+GlFd7cQ1W/FsgxMjaTG4Od1d+a5CGVTh3s6X2g99TSUfxjOveg==
+  dependencies:
+    "@electron-forge/shared-types" "7.4.0"
+    fs-extra "^10.0.0"
+    which "^2.0.2"
+
 "@electron-forge/maker-deb@6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.1.1.tgz#6482e239b09438f57cbdfd60b9f6474fbf09c334"
@@ -104,13 +113,13 @@
   optionalDependencies:
     electron-installer-debian "^3.0.0"
 
-"@electron-forge/maker-rpm@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-6.1.1.tgz#ab532e3f5d975708f0e7d5cbe8764563b8869e75"
-  integrity sha512-ya+XtNqHuYENQh4+0XLVM5MYQYR/Y3gKxfUO/V7top6R+TWQwgcUywGEcofxjKVB7fIbDVu4yYgqMujvF6m4QQ==
+"@electron-forge/maker-rpm@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-7.4.0.tgz#135b7c4b621048ce565b3c92a7577915b43ab371"
+  integrity sha512-N64Yh/K/91GzIk28T1jKsCGgYaquDuhXcEJW+TkVyP5tPZ9aTz9SjXLBxAg8WhcroArAZEsVyPOFKthmFzAUuA==
   dependencies:
-    "@electron-forge/maker-base" "6.1.1"
-    "@electron-forge/shared-types" "6.1.1"
+    "@electron-forge/maker-base" "7.4.0"
+    "@electron-forge/shared-types" "7.4.0"
   optionalDependencies:
     electron-installer-redhat "^3.2.0"
 
